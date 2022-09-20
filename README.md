@@ -1,4 +1,4 @@
-# accumulation_network_circular_economy
+# Accumulation Network for Circular Economy
 The code in this repository allows to analyse Circular Economy with a Linear Network Flow Dynamics approach. Since CE is strongly related to reuse, share, repaire and recycle materials. This circularity may lead to the accumulation of some unwanted compounds at some stages of the cycle that may harm human health or the environment on the long run. A specific code is developped for checking whether this accumulation occurs and veryfing if it is robust with a Monte Carlo approach.
 
 The main folder contains all functions needed for measuring accumulation and robustness. 
