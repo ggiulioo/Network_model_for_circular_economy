@@ -3,7 +3,7 @@ using LinearAlgebra, Plots, Graphs, GraphRecipes, ColorSchemes, Colors, Pandoc, 
 """
 Aanalysis(A::Array{T}, ver::Matrix{String}; graph = false) where T <:Real
 
-The function allows the accumulation analysis of a graph, provided the Adiacency matrix (A) and list of all vertices (ver).
+The function allows to study the accumulation points in a graph, provided the Adiacency matrix (A) and list of all vertices (ver).
 """
 function Aanalysis(A, ver; graph = false) #ver vector of strings naming all vertex
     length(ver) != length(A[1,:]) && return println("Vertices vector must be consistent with Adiacency matrix")
